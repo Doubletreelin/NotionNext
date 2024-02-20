@@ -1,12 +1,19 @@
 const CONFIG = {
   HEO_HOME_BANNER_ENABLE: true,
 
-  HEO_SITE_CREATE_TIME: '2021-09-21', // 建站日期，用于计算网站运行的第几天
+  HEO_SITE_CREATE_TIME: '2024-01-01', // 建站日期，用于计算网站运行的第几天
 
   // 首页顶部通知条滚动内容，如不需要可以留空 []
   HEO_NOTICE_BAR: [
-    { title: '欢迎来到我的博客', url: 'https://blog.tangly1024.com' },
-    { title: '访问文档中心获取更多帮助', url: 'https://docs.tangly1024.com' }
+    { title: '人有悲欢离合，月有阴晴圆缺，此事古难全。但愿人长久，千里共婵娟  --《水调歌头·明月几时有》', url: 'https://hanyu.baidu.com/shici/detail?from=aladdin&pid=946d8372884d445eb0a4cc6e3826dbe8' },
+    { title: '大江东去，浪淘尽，千古风流人物  --《念奴娇·赤壁怀古》', url: 'https://hanyu.baidu.com/shici/detail?from=aladdin&pid=da476d6bf6c243e69a9dda1f0dd7c524' },
+    { title: '天生我材必有用，千金散尽还复来 --《将进酒·君不见》', url: 'https://hanyu.baidu.com/shici/detail?from=aladdin&pid=60841450e8714b78a6f7ef385dcb63e0' },
+    { title: '花间一壶酒，独酌无相亲。举杯邀明月，对影成三人 --《月下独酌（其一）》', url: 'https://hanyu.baidu.com/shici/detail?pid=c4d0f96418f04c0eb0af54a2c21075f0' },
+    { title: '醉卧沙场君莫笑，古来征战几人回  --《凉州词》', url: 'https://hanyu.baidu.com/shici/detail?pid=7022af4aa9d04d02bb3f7e2d8fde87b9' },
+    { title: '会当凌绝顶，一览众山小  --《望岳》', url: 'https://hanyu.baidu.com/shici/detail?pid=3999faed1b1b457fa95a85935ddc9544' },
+    { title: '安能摧眉折腰事权贵，使我不得开心颜  --《梦游天姥吟留别》', url: 'https://hanyu.baidu.com/shici/detail?pid=c9445bc0f57411e58459c8e0eb15ce01&tn=sug_click' },
+    { title: '香雾云鬟湿，清辉玉臂寒。何时倚虚幌，双照泪痕干！ --《月夜》', url: 'https://hanyu.baidu.com/shici/detail?pid=a2eceb57bba743bbbd949eb8fb5152cb&tn=sug_click' },
+    { title: '欲穷千里目，更上一层楼  --《登鹳雀楼》', url: 'https://hanyu.baidu.com/shici/detail?pid=fb5803490d4f46b7b8ab5f2956a35cce&tn=sug_click' }
   ],
 
   // 英雄区左右侧组件颠倒位置
@@ -17,10 +24,10 @@ const CONFIG = {
   // 英雄区(首页顶部大卡)
   HEO_HERO_TITLE_1: '分享编程',
   HEO_HERO_TITLE_2: '与思维认知',
-  HEO_HERO_TITLE_3: 'TANGLY1024.COM',
-  HEO_HERO_TITLE_4: '新版上线',
-  HEO_HERO_TITLE_5: 'NotionNext4.0 轻松定制主题',
-  HEO_HERO_TITLE_LINK: 'https://tangly1024.com',
+  HEO_HERO_TITLE_3: 'Doubletree_lin',
+  HEO_HERO_TITLE_4: '代码、诗与远方',
+  HEO_HERO_TITLE_5: '天行健，君子以自强不息；地势坤，君子以厚德载物',
+  HEO_HERO_TITLE_LINK: 'http://myblog.doubletree.fun',
 
   // 英雄区显示三个置顶分类
   HEO_HERO_CATEGORY_1: { title: '必看精选', url: '/tag/必看精选' },
@@ -104,7 +111,7 @@ const CONFIG = {
     }
   ],
 
-  HEO_SOCIAL_CARD: true, // 是否显示右侧，点击加入社群按钮
+  HEO_SOCIAL_CARD: false, // 是否显示右侧，点击加入社群按钮
   HEO_SOCIAL_CARD_TITLE_1: '交流频道',
   HEO_SOCIAL_CARD_TITLE_2: '加入我们的社群讨论分享',
   HEO_SOCIAL_CARD_TITLE_3: '点击加入社群',
