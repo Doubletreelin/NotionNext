@@ -30,9 +30,9 @@ const CONFIG = {
   HEO_HERO_TITLE_LINK: 'http://myblog.doubletree.fun',
 
   // 英雄区显示三个置顶分类
-  HEO_HERO_CATEGORY_1: { title: '必看精选', url: '/tag/必看精选' },
-  HEO_HERO_CATEGORY_2: { title: '热门文章', url: '/tag/热门文章' },
-  HEO_HERO_CATEGORY_3: { title: '实用教程', url: '/tag/实用教程' },
+  HEO_HERO_CATEGORY_1: { title: '必看精选', url: '/tag/推荐' },
+  HEO_HERO_CATEGORY_2: { title: '建站教程', url: '/tag/建站' },
+  HEO_HERO_CATEGORY_3: { title: '心情随笔', url: '/category/心情随笔' },
 
   // 英雄区右侧推荐文章标签, 例如 [推荐] , 最多六篇文章; 若留空白''，则推荐最近更新文章
   HEO_HERO_RECOMMEND_POST_TAG: '推荐',
